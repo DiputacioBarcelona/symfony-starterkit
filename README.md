@@ -65,7 +65,7 @@ SonarScanner: https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/ i ex
 projecte:
 
 > __PATH_TO_SONAR__/sonar-scanner.bat 
-> -D"sonar.host.url=http://su0244.corpo.ad.diba.es:9000/" 
+> -D"sonar.host.url=__HOST__" 
 > -D"sonar.projectKey=__PROJECT_KEY__" 
 > -D"sonar.login=__SONAR_TOKEN__" 
 > -D"sonar.exclusions=node_modules/**,var/**,vendor/**,public/**"

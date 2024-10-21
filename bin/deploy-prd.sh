@@ -11,7 +11,7 @@ echo "===== Baixant la darrera versió del codi ====="
 git fetch origin
 git reset --hard origin/master
 echo "===== Actualitzant dependències ====="
-export COMPOSER_ALLOW_SUPERUSER=1; php74 -d memory_limit=-1 /usr/bin/composer install --prefer-dist --no-interaction --ansi
+export COMPOSER_ALLOW_SUPERUSER=1; php -d memory_limit=-1 /usr/bin/composer install --prefer-dist --no-interaction --ansi
 echo "===== Actualitzant el timestamp del build desplegat ====="
 sudo touch .env
 echo "===== Netejant cache ====="
