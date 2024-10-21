@@ -1,0 +1,79 @@
+<nav class="navbar navbar-expand-lg menu-primary justify-content-between">
+    <div class="container-fluid p-0">
+        <a class="navbar-brand py-0 d-lg-none" href="https://diba.cat">
+            <img src="/build/img/logos/diba.svg" alt="Diputació de Barcelona" height="40" class="logo-sm">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-primary-content">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu-primary-content">
+            <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('front.home') }}">Llegeix-me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('front.example') }}">Exemple</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://maqueta.diba.cat/v3">Maqueta corporativa</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Productes
+                    </a>
+                    <ul class="dropdown-menu w-100 shadow">
+                        <li><a class="dropdown-item" href="https://maqueta.diba.cat/v3/?page=productes/productea">Exemple A</a></li>
+                        <li><a class="dropdown-item" href="https://maqueta.diba.cat/v3/?page=productes/producteb">Exemple B</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Components
+                    </a>
+                    <div class="dropdown-menu w-100 shadow mt-0">
+                        <div class="row p-4">
+                            <div class="col-md-4 mb-2 p-2">
+                                <p class="h4 fw-semibold"><i class="bi bi-puzzle me-1"></i> Components</p>
+                                <p>Exemple de components i solucions gràfiques corporatives.</p>
+                            </div>
+                            <div class="col-md-8 mb-2">
+                                <ul class="list-unstyled row">
+                                    <li class="col-md-6">
+                                        <a class="dropdown-item border-bottom" href="https://maqueta.diba.cat/v3/?page=components/utils">
+                                            <i class="bi bi-box me-1"></i> Utilitats i colors
+                                        </a>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <a class="dropdown-item border-bottom" href="https://maqueta.diba.cat/v3/?page=components/forms">
+                                            <i class="bi bi-ui-radios me-1"></i> Formularis
+                                        </a>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <a class="dropdown-item border-bottom" href="https://maqueta.diba.cat/v3/?page=components/tables">
+                                            <i class="bi bi-table me-1"></i> Taules
+                                        </a>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <a class="dropdown-item border-bottom" href="https://maqueta.diba.cat/v3/?page=components/icons">
+                                            <i class="bi bi-emoji-smile me-1"></i> Icones
+                                        </a>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <a class="dropdown-item border-bottom" href="https://maqueta.diba.cat/v3/?page=components/grafics">
+                                            <i class="bi bi-bar-chart me-1"></i> Gràfics
+                                        </a>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <a class="dropdown-item border-bottom" href="https://maqueta.diba.cat/v3/?page=components/maques">
+                                            <i class="bi bi-geo-alt me-1"></i> Mapes
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
