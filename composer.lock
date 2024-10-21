@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "768b80310a4095413330fac82f797fe1",
+    "content-hash": "3bd41ad92ea5d6fac38b17349547fff8",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1256,11 +1256,11 @@
         },
         {
             "name": "maqueta/diba",
-            "version": "3.0",
+            "version": "3.1",
             "source": {
                 "type": "git",
-                "url": "https://codifont.diba.cat/mco/mco.git",
-                "reference": "master"
+                "url": "https://github.com/DiputacioBarcelona/maqueta.git",
+                "reference": "main"
             },
             "type": "library"
         },
